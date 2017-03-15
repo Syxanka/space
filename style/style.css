@@ -1,0 +1,128 @@
+
+*{  
+font-family: 'Playfair Display SC', serif;
+margin: 0;
+padding: 0;	
+}
+
+.menu{
+padding: 5px;
+position: fixed; 
+z-index: 13;    
+background: white; 
+opacity: 0.85; 
+width: 1000px;   
+}
+
+.menu ul li{
+list-style: none; /* убираем маркеры */
+display: inline-block;    
+}   
+
+.menu ul li a{
+text-decoration: none; /* убираем подчеркивание ссылки */
+display: block; /* делаем ссылки блочными */
+padding: 2px 10px; /* отступы */
+color: #3E3B32; /* цвет ссылок */    
+}
+
+.container {
+height: 460px;
+margin: 50px;
+}
+
+.post {
+text-align: center;
+padding: 20px; 
+width: 1000px;
+height: 1000px;
+margin:auto;    
+}
+
+.left_post { 
+width:300px;
+height:200px;
+display: inline-block;
+vertical-align: top;
+padding:15px;
+    
+}
+
+.left_post p{
+background: white; 
+opacity: 0.8;
+text-overflow: clip; 
+position: relative;
+bottom:40px;    
+}
+
+.left_post h4{
+font-weight: lighter;    
+}
+
+.center_post { 
+width:300px;
+height:200px;
+display: inline-block;
+vertical-align: top;
+padding:15px;
+}
+
+.center_post p{
+background: white; 
+opacity: 0.8;
+text-overflow: clip; 
+position: relative;
+bottom:40px;    
+}
+
+.center_post h4{
+font-weight: lighter;     
+}
+    
+    
+.right_post { 
+width:300px;
+height:200px;
+display: inline-block;
+vertical-align: top;
+padding:15px;
+}
+
+.right_post p{
+background: white; 
+opacity: 0.8;
+text-overflow: clip; 
+position: relative;
+bottom:40px;    
+}
+
+.right_post h4{
+font-weight: lighter;   
+}
+
+.h3{
+font-family: 'Playfair Display SC', serif;  
+color: #3E3B32; 
+opacity: 0.6;      
+text-align: center;  
+padding: 130px;  
+margin-bottom: -90px;    
+}
+
+.tekst{
+text-align: center;	
+margin-top: 10px;	
+font-size: x-small;
+color: black;
+}
+
+.footer{
+background-color: #ffffff;
+height: 70px;    
+margin-top: 100px;  
+border-top-style: solid;	
+border-top-color: #3E3B32;
+opacity: 0.9; 	
+}
+

@@ -1,0 +1,114 @@
+
+*{
+margin: 0;
+padding: 0;    
+font-family: 'Playfair Display SC', serif;
+}
+
+.menu{
+padding: 5px;
+position: fixed; 
+z-index: 13;    
+background: white; 
+opacity: 0.85; 
+width: 1000px;  
+margin-top: 10px;    
+}
+
+.menu ul li{
+list-style: none; /* убираем маркеры */
+display: inline-block;    
+}   
+
+.menu ul li a{
+text-decoration: none; /* убираем подчеркивание ссылки */
+display: block; /* делаем ссылки блочными */
+padding: 2px 10px; /* отступы */
+color: #3E3B32; /* цвет ссылок */    
+}
+
+.post {
+text-align: center;
+width: 1000px;
+margin:auto; 
+margin-top: 10px;    
+}
+
+
+.h1{
+font-family: 'Playfair Display SC', serif;  
+color: #3E3B32; 
+opacity: 0.6;      
+text-align: center;  
+padding: 65px;  
+margin-bottom: -50px;  
+}
+
+.h2{
+color: #3E3B32; 
+opacity: 0.6;      
+text-align: center;  
+padding: 55px; 
+margin-top: -50px;        
+}
+
+.left_post { 
+width:300px;
+height:220px;
+display: inline-block;
+padding:15px;
+}
+
+.left_post p{
+background: white; 
+opacity: 0.8;
+text-overflow: clip; 
+position: relative;
+bottom:40px;    
+}
+
+.center_post { 
+width:300px;
+height:220px;
+display: inline-block;
+padding:15px;
+}
+
+.center_post p{
+background: white; 
+opacity: 0.8;
+text-overflow: clip; 
+position: relative;
+bottom:40px;    
+}
+
+.right_post { 
+width:300px;
+height:220px;
+display: inline-block;
+padding:15px;
+}
+
+.right_post p{
+background: white; 
+opacity: 0.8;
+text-overflow: clip; 
+position: relative;
+bottom:40px;    
+}
+
+.tekst{
+text-align: center;	
+margin-top: 10px;	
+font-size: x-small;
+color: black;
+}
+
+.footer{
+background-color: #ffffff;
+height: 70px;    
+margin-top: 40px;  
+border-top-style: solid;	
+border-top-color: #3E3B32;
+opacity: 0.9; 	
+}
